@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="Assets/IMG/paises (1).png" type="image/x-icon">
+    <title>Países</title>
+</head>
+
+<body>
+    <div>
+        <h1>Bandeiras dos Países</h1>
+    </div>
+    <section>
+
+        <button id="dark">🌙 Modo Escuro</button>
+        <select name="paises" id="select">
+            <option>Selecione uma opcao</option>
+            <option value="Todos">Todos</option>
+            <option value="Africa">Africa</option>
+            <option value="Americas">Americas</option>
+            <option value="Antarctic">Antartida</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europa</option>
+            <option value="Oceania">Oceania</option>
+            <option value="Favoritos">Favoritos</option>
+        </select>
+
+    </section>
+    <div class="search">
+        <!-- <span class="material-symbols-outlined"><input type="text" id="inp" placeholder="Digite o nome do país "/></span> -->
+        <input type="text" id="inp" placeholder="Digite o nome do país 🔍"/>
+        <button id="btn">Pesquisar</button>
+    </div>
+    <div id="exibir"></div>
+
+    <script src="Assets/JS/app.js"></script>
+</body>
+
+</html>
